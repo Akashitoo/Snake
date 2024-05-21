@@ -14,4 +14,4 @@ Lancer le jeu avec la commande :
 
 Un bug peut survenir lorsque vous bouger trop rapidement
 
-[BUG](assets/bug.png)
+![BUG](assets/bug.png)
