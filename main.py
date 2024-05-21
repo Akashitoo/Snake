@@ -141,15 +141,15 @@ def updateApple():
 def changeDirection(event):
     global snake
     if snake.head.direction == "left" or snake.head.direction == "right":
-        if event.keycode == 38:
+        if event.keycode == 25:
             snake.head.direction = "up"
-        if event.keycode == 40:
+        if event.keycode == 39:
             snake.head.direction = "down"
 
     elif snake.head.direction == "up" or snake.head.direction == "down":
-        if event.keycode == 37:
+        if event.keycode == 38:
             snake.head.direction = "left"
-        if event.keycode == 39:
+        if event.keycode == 40:
             snake.head.direction = "right"
     snake.displaySnake()
     apple.displayApple()
